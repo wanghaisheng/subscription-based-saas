@@ -13,25 +13,20 @@ export default class MyDocument extends Document {
           />
           <link
             rel="shortcut icon"
-            href="./images/favicon.ico"
+            href="/favicon.ico"
             type="image/x-icon"
-          />
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="./images/apple-touch-icon.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="./images/favicon-32x32.png"
+            href="/favicon-32x32.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="./images/favicon-16x16.png"
+            href="/favicon-16x16.png"
           />
         </Head>
         <body>
