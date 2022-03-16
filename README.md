@@ -1,8 +1,4 @@
 <p align="center">
-  <img alt="anime.news" src=".github/animenews.png" width="10%">
-</p>
-
-<p align="center">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=eb3434&labelColor=121214" alt="License">
   
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=eb3434&labelColor=121214" alt="PRs welcome!" />
