@@ -34,7 +34,11 @@ export default function Home({ product }: HomeProps) {
           </p>
           <SubscribeButton priceId={product.priceId} />
         </section>
-        <Image src={avatarImg} alt="Akame ga kill" quality={100} />
+        <Image src={avatarImg}
+         alt="Akame ga kill" 
+         quality={100}
+         priority={true}
+        />
       </main>
     </>
   );
