@@ -1,5 +1,7 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
+import errorImg from "../../public/images/avatar-404.png";
 import styles from "./404.module.scss";
 
 export default function Error404() {
@@ -10,7 +12,13 @@ export default function Error404() {
       </Head>
 
       <main className={styles.errorContainer}>
-        <img src="/images/avatar-404.png" alt="Akame ga Kill" />
+        <Image
+          src={errorImg}
+          alt="Akame ga Kill"
+          width={370}
+          height={370}
+          quality={100}
+        />
         <h1>Page Not Found</h1>
         <Link href="/">
           <a>Back to home</a>
