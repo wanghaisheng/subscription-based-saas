@@ -4,6 +4,10 @@ import Link from "next/link";
 import errorImg from "../../public/images/avatar-404.png";
 import styles from "./404.module.scss";
 
+const preventDrag = (e: any) => {
+  e.preventDefault();
+};
+
 export default function Error404() {
   return (
     <>
@@ -18,6 +22,7 @@ export default function Error404() {
           width={370}
           height={370}
           quality={100}
+          onDragStart={preventDrag}
         />
         <h1>Page Not Found</h1>
         <Link href="/">

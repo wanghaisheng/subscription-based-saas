@@ -15,6 +15,10 @@ interface HomeProps {
   };
 }
 
+const preventDrag = (e: any) => {
+  e.preventDefault();
+};
+
 export default function Home({ product }: HomeProps) {
   return (
     <>
@@ -38,6 +42,7 @@ export default function Home({ product }: HomeProps) {
          alt="Akame ga kill" 
          quality={100}
          priority={true}
+         onDragStart={preventDrag}
         />
       </main>
     </>
