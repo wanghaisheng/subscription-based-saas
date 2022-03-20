@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { ActiveLink } from "../ActiveLink";
 import { SignInButton } from "./SignInButton";
 import styles from "./style.module.scss";
 
@@ -5,12 +7,20 @@ export function Header() {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
-        <h1 className={styles.logo}>anime<span>.news</span></h1>
+        <Link href="/">
+          <a className={styles.logo}>
+            anime<span>.news</span>
+          </a>
+        </Link>
         <nav>
-          <a href="" className={styles.active}>Home</a>
-          <a href="">Posts</a>
+          <ActiveLink activeClassName={styles.active} href="/">
+            <a>Home</a>
+          </ActiveLink>
+          <ActiveLink activeClassName={styles.active} href="/posts">
+            <a>Posts</a>
+          </ActiveLink>
         </nav>
-        <SignInButton/>
+        <SignInButton />
       </div>
     </header>
   );
