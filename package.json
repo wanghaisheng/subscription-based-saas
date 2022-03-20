@@ -1,7 +1,7 @@
 {
   "name": "animenews",
   "version": "1.0.0",
-  "description": "Blog with subscription service.",
+  "description": "Anime.news is a subscription-based news application, made with Next.js using Typescript, Prismic and FaunaDB.",
   "author": "Lucas Trecente <lucastrecente@hotmail.com> (https://github.com/lucastrecente)",
   "license": "MIT",
   "private": true,
