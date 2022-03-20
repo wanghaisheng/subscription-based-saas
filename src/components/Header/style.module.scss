@@ -1,6 +1,7 @@
 .headerContainer {
   height: 5rem;
   border-bottom: 1px solid var(--gray-800);
+  user-select: none;
 }
 
 .headerContent {
@@ -12,8 +13,18 @@
   display: flex;
   align-items: center;
 
+  & > a {
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(1.2);
+    }
+  }
+
   .logo {
     color: #e1e1e6;
+    font-size: 2rem;
+    font-weight: bold;
 
     span {
       color: var(--red-500);
