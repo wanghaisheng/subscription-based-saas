@@ -1,6 +1,9 @@
 {
   "name": "animenews",
   "version": "1.0.0",
+  "description": "Blog with subscription service.",
+  "author": "Lucas Trecente <lucastrecente@hotmail.com> (https://github.com/lucastrecente)",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
