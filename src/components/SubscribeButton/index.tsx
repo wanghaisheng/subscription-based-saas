@@ -17,6 +17,10 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
       return;
     }
 
+    if (session.activeSubscription) {
+      return toast.error("You are already subscribed!");
+    }
+
     try {
       const response = await api.post("/checkoutSubscribe");
 
