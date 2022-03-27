@@ -43,14 +43,7 @@ $ yarn dev
 ```
 
 The app will be available for access on your browser at http://localhost:3000
-
-## 🏆 Team
-
-It is maintained by the following person(s)
-
-| [![Lucas Trecente](https://github.com/lucastrecente.png?size=100)](https://github.com/lucastrecente) |
-| ---------------------------------------------------------------------------------------------------- |
-| [Lucas Trecente](https://github.com/lucastrecente)                                                   |                                                |
+                                                |                                                |
 
 ## 📝 License
 
